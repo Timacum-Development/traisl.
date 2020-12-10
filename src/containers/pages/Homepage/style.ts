@@ -14,14 +14,18 @@ export const Social = styled.div`
 `;
 
 export const GeyserBg = styled.div`
-  width: 40%;
+  width: 48%;
   height: 841px;
   background: url(${Bg1}) no-repeat center;
   background-size: cover;
 `;
 
 export const YellowBg = styled.div`
-  width: 50%;
+  width: 52%;
   height: 841px;
   background-color: ${color.lightYellow};
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 `;

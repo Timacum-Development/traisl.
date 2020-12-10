@@ -6,7 +6,7 @@ export const HeaderWrap = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 44px 0 15px 0;
+  padding: 44px 0 46px 0;
 `;
 
 export const Logo = styled.img`
@@ -28,6 +28,7 @@ export const Search = styled.input`
   border: none;
   outline: none;
   border-bottom: 1px solid ${color.grey};
+  background-color: transparent;
 `;
 
 export const Magnifier = styled.img`
