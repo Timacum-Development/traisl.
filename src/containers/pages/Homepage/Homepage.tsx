@@ -1,7 +1,15 @@
 import React from "react";
+import { Hero, Social, GeyserBg, YellowBg } from "./style";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <React.Fragment>
+      <Hero className="container-fluid">
+        <GeyserBg></GeyserBg>
+        <YellowBg></YellowBg>
+      </Hero>
+    </React.Fragment>
+  );
 };
 
 export default Homepage;

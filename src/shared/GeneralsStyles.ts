@@ -43,7 +43,6 @@ export default createGlobalStyle`
 		display: flex;
 		flex-direction: column;
 		height: 100%;
-		background-color: ${color.yellow};
 	}
 
 	main {
