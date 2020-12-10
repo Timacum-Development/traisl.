@@ -1,7 +1,5 @@
 import React from "react";
 
-import { MainLink } from "../../../shared/components";
-
 import { Hero, Social, GeyserBg, YellowBg } from "./style";
 
 const Homepage = () => {
