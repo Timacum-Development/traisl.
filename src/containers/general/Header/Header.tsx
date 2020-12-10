@@ -1,8 +1,16 @@
 import React from "react";
-import { HeaderWrap } from "./style";
+import { HeaderWrap, Logo } from "../Header/style";
+
+//Assets
+
+import LogoImg from "../../../assets/logo.png";
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <HeaderWrap>
+      <Logo src={LogoImg} />
+    </HeaderWrap>
+  );
 };
 
 export default Header;

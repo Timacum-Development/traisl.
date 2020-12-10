@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { color } from "../shared/styles";
 
 export default createGlobalStyle`
 	@font-face {
@@ -49,16 +50,17 @@ export default createGlobalStyle`
 	}
 
 
-body {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-}
+	body {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		background-color: ${color.yellow};
+	}
 
-main {
-	flex: 1 0 auto;
-	width: 100%;
-}
+	main {
+		flex: 1 0 auto;
+		width: 100%;
+	}
 
 	p {
 		margin: 0;
@@ -70,4 +72,28 @@ main {
 		flex-wrap: wrap;
 	}
 
+	.container-fluid {
+		width: 100%;
+	}
+
+	.container {
+		max-width: ;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 0;
+		text-align: left;
+	}
+
+	a {
+		text-decoration: none;
+		display: inline-block;
+	}
 `;
