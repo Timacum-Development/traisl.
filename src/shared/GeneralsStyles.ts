@@ -3,40 +3,29 @@ import { color } from "../shared/styles";
 
 export default createGlobalStyle`
 	@font-face {
-		font-family: 'museo_sans100';
-		src: url('museosans-100-webfont.woff2') format('woff2'),
-			url('museosans-100-webfont.woff') format('woff');
-		font-weight: 100;
-		font-style: normal;
-
-	}
-
-	@font-face {
-		font-family: 'museo_sans300';
+		font-family: 'museo_sans300', sans;
 		src: url('museosans-300-webfont.woff2') format('woff2'),
 			url('museosans-300-webfont.woff') format('woff');
 		font-weight: 300;
 		font-style: normal;
-
 	}
 
 
 	@font-face {
-		font-family: 'museo_sans500';
+		font-family: 'museo_sans500', sans;
 		src: url('museosans_500-webfont.woff2') format('woff2'),
 			url('museosans_500-webfont.woff') format('woff');
 		font-weight: 500;
 		font-style: normal;
-
 	}
 
+
 	@font-face {
-		font-family: 'museo_sans700';
+		font-family: 'museo_sans700', sans;
 		src: url('museosans_700-webfont.woff2') format('woff2'),
 			url('museosans_700-webfont.woff') format('woff');
 		font-weight: 700;
 		font-style: normal;
-
 	}
 
 	html, body, #root {
@@ -77,7 +66,7 @@ export default createGlobalStyle`
 	}
 
 	.container {
-		max-width: ;
+		max-width: 1280px;
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -90,6 +79,11 @@ export default createGlobalStyle`
 	h6 {
 		margin: 0;
 		text-align: left;
+	}
+
+	h1,
+	h2 {
+		font-size: 3.75rem;
 	}
 
 	a {

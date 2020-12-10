@@ -5,5 +5,3 @@ export const color = {
   lightYellow: "#fef6df",
   yellow: "ffdd8b",
 };
-
-export const font = {};
