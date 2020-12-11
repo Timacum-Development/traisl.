@@ -10,7 +10,11 @@ export const Hero = styled.section`
 `;
 
 export const Social = styled.div`
-  width: 10%;
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 220px 0;
 `;
 
 export const GeyserBg = styled.div`
@@ -18,6 +22,17 @@ export const GeyserBg = styled.div`
   height: 841px;
   background: url(${Bg1}) no-repeat center;
   background-size: cover;
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 241px;
+    height: 16px;
+    background-color: ${color.yellow};
+    position: absolute;
+    top: -15px;
+    right: 0;
+  }
 `;
 
 export const YellowBg = styled.div`

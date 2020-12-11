@@ -7,10 +7,8 @@ const MainLink = (props: any) => {
   const { onClick, text } = props;
   return (
     <React.Fragment>
-      <LinkFirst>
+      <LinkFirst onClick={onClick} href="#">
         {text}
-        onClick={onClick}
-        href="#"
       </LinkFirst>
     </React.Fragment>
   );

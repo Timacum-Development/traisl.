@@ -88,5 +88,8 @@ export default createGlobalStyle`
 	a {
 		text-decoration: none;
 		display: inline-block;
+		font-family: 'museo_sans700', sans;
+		font-weight: 700;
+		text-align: left;
 	}
 `;
