@@ -57,3 +57,16 @@ export const YellowBg = styled.div`
   top: 0;
   z-index: -1;
 `;
+
+export const PageNumberWrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const PageLine = styled.div`
+  width: 51px;
+  height: 3px;
+  background-color: ${color.grey};
+  margin: 0 19px;
+`;

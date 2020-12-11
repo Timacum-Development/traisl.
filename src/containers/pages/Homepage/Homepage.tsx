@@ -7,6 +7,8 @@ import {
   YellowBg,
   Buttons,
   ButtonPageWrap,
+  PageNumberWrap,
+  PageLine,
 } from "./style";
 import MainLink from "../../../shared/components/Link";
 import Btn from "../../../shared/components/Button";
@@ -36,7 +38,11 @@ const Homepage = () => {
             <a>
               <Btn blk btnUrl={RightSlider} />
             </a>
-            <Pagination text="1" />
+            <PageNumberWrap>
+              <Pagination text="1" />
+              <PageLine />
+              <Pagination text="2" />
+            </PageNumberWrap>
           </ButtonPageWrap>
         </Buttons>
         <GeyserBg></GeyserBg>

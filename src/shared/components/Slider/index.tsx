@@ -1,17 +1,9 @@
 import React from "react";
-import { PageNumber, PageNumberWrap, PageLine } from "./style";
+import { PageNumber } from "./style";
 
 const Pagination = (props: any) => {
   const { text } = props;
-  return (
-    <React.Fragment>
-      <PageNumberWrap>
-        <PageNumber>{text}</PageNumber>
-        <PageLine />
-        <PageNumber>{text}</PageNumber>
-      </PageNumberWrap>
-    </React.Fragment>
-  );
+  return <PageNumber>{text}</PageNumber>;
 };
 
 export default Pagination;
