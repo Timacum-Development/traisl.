@@ -33,6 +33,16 @@ export const GeyserBg = styled.div`
     top: -15px;
     right: 0;
   }
+
+  &:after {
+    content: "";
+    width: 16px;
+    height: 65px;
+    background-color: ${color.yellow};
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+  }
 `;
 
 export const Buttons = styled.div`
@@ -40,7 +50,7 @@ export const Buttons = styled.div`
   position: absolute;
   left: 53%;
   top: 50%;
-  z-index: 5;
+  z-index: 25;
 `;
 
 export const ButtonPageWrap = styled.div`
@@ -62,6 +72,7 @@ export const PageNumberWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
 `;
 
 export const PageLine = styled.div`
@@ -69,4 +80,21 @@ export const PageLine = styled.div`
   height: 3px;
   background-color: ${color.grey};
   margin: 0 19px;
+  opacity: 1;
+`;
+
+export const Intro = styled.div`
+  max-width: 676px;
+  padding-top: 100px;
+  position: relative;
+  left: -63px;
+  z-index: 20;
+`;
+
+export const TextWrap = styled.div`
+  padding-left: 158px;
+`;
+
+export const HeadingWrap = styled.div`
+  display: flex;
 `;

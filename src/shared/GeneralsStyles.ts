@@ -80,10 +80,12 @@ export default createGlobalStyle`
 		text-align: left;
 	}
 
+
 	h1,
 	h2 {
 		font-size: 3.75rem;
 		margin-bottom: 79px;
+		font-weight: 900;
 	}
 
 	h3 {
@@ -109,7 +111,8 @@ export default createGlobalStyle`
 	p {
 		font-size: 1.0625rem;
 		font-family: 'museo_sans300', sans;
-		font-weight: 300;	
+		font-weight: 300;
+		line-height: 2;
 	}
 
 

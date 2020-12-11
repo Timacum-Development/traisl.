@@ -9,6 +9,9 @@ import {
   ButtonPageWrap,
   PageNumberWrap,
   PageLine,
+  Intro,
+  TextWrap,
+  HeadingWrap,
 } from "./style";
 import MainLink from "../../../shared/components/Link";
 import Btn from "../../../shared/components/Button";
@@ -39,14 +42,32 @@ const Homepage = () => {
               <Btn blk btnUrl={RightSlider} />
             </a>
             <PageNumberWrap>
-              <Pagination text="1" />
-              <PageLine />
               <Pagination text="2" />
+              <PageLine />
+              <Pagination text="5" />
             </PageNumberWrap>
           </ButtonPageWrap>
         </Buttons>
         <GeyserBg></GeyserBg>
         <YellowBg></YellowBg>
+        <Intro>
+          <HeadingWrap>
+            <Pagination text="1" />
+            <h1>Meet the volcanoes, geysers, hot springs and lava fields.</h1>
+          </HeadingWrap>
+          <TextWrap>
+            <h5>
+              Iceland, a Nordic island nation, is defined by its dramatic
+              landscape...
+            </h5>
+            <p>
+              Massive glaciers are protected in Vatnajökull and Snæfellsjökull
+              national parks. Most of the population lives in the capital,
+              Reykjavik, which runs on geothermal power and is home to the
+              National and Saga museums, tracing Iceland’s Viking history.
+            </p>
+          </TextWrap>
+        </Intro>
       </Hero>
     </React.Fragment>
   );
