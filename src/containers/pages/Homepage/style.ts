@@ -35,6 +35,19 @@ export const GeyserBg = styled.div`
   }
 `;
 
+export const Buttons = styled.div`
+  width: 40%;
+  position: absolute;
+  left: 53%;
+  top: 50%;
+  z-index: 5;
+`;
+
+export const ButtonPageWrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 223px;
+`;
 export const YellowBg = styled.div`
   width: 52%;
   height: 841px;

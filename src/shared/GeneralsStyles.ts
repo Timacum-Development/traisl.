@@ -83,7 +83,35 @@ export default createGlobalStyle`
 	h1,
 	h2 {
 		font-size: 3.75rem;
+		margin-bottom: 79px;
 	}
+
+	h3 {
+		font-size: 2.5rem;
+		margin-bottom: 35px;
+	}
+
+	h4 {
+		font-size: 1.875rem;
+	}
+
+	h5 {
+		font-size: 1.375rem;
+		font-family: 'museo_sans700', sans;
+		font-weight: 700;
+		margin-bottom: 36px;
+	}
+
+	h6 {
+		font-size: 0.875rem;
+	}
+
+	p {
+		font-size: 1.0625rem;
+		font-family: 'museo_sans300', sans;
+		font-weight: 300;	
+	}
+
 
 	a {
 		text-decoration: none;
@@ -91,5 +119,6 @@ export default createGlobalStyle`
 		font-family: 'museo_sans700', sans;
 		font-weight: 700;
 		text-align: left;
+		cursor: pointer;
 	}
 `;
