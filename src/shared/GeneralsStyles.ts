@@ -36,6 +36,7 @@ export default createGlobalStyle`
 		font-family: 'Playfair Display', serif;
 		box-sizing: border-box;
 		font-size: 16px;
+		height: 100%;
 	}
 
 

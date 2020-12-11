@@ -11,6 +11,8 @@ export const HeaderWrap = styled.header`
 
 export const Logo = styled.img`
   display: block;
+  width: 97px;
+  height: 29px;
 `;
 
 export const RightWrap = styled.div`

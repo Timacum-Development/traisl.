@@ -6,6 +6,7 @@ import Bg1 from "../../../assets/geyser.png";
 
 export const Hero = styled.section`
   display: flex;
+  margin-bottom: 195px;
   /* justify-content: flex-end; */
 `;
 
