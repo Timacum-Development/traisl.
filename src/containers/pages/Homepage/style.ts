@@ -37,7 +37,7 @@ export const GeyserBg = styled.div`
   &:after {
     content: "";
     width: 16px;
-    height: 65px;
+    height: 55px;
     background-color: ${color.yellow};
     position: absolute;
     bottom: 0;
@@ -49,7 +49,7 @@ export const Buttons = styled.div`
   width: 40%;
   position: absolute;
   left: 53%;
-  top: 50%;
+  top: 51%;
   z-index: 25;
 `;
 
@@ -92,7 +92,7 @@ export const Intro = styled.div`
 `;
 
 export const TextWrap = styled.div`
-  padding-left: 158px;
+  padding-left: 187px;
 `;
 
 export const HeadingWrap = styled.div`

@@ -52,7 +52,7 @@ const Homepage = () => {
         <YellowBg></YellowBg>
         <Intro>
           <HeadingWrap>
-            <Pagination text="1" />
+            <Pagination text="1" style={{ padding: "10px 29px 0px 0px" }} />
             <h1>Meet the volcanoes, geysers, hot springs and lava fields.</h1>
           </HeadingWrap>
           <TextWrap>

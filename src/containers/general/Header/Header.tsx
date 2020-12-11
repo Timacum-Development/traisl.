@@ -29,7 +29,7 @@ const Header = () => {
           <Magnifier src={MagnifierImg} />
         </SearchWrap>
         <Language>
-          <LanguageTxt> En • Is </LanguageTxt>
+          <LanguageTxt>En • Is</LanguageTxt>
         </Language>
         <Burger>
           <BurgerLine />

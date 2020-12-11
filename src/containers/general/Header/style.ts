@@ -46,8 +46,10 @@ export const Language = styled.div`
 `;
 
 export const LanguageTxt = styled.p`
+  font-size: 0.875rem;
   text-transform: uppercase;
-  font-family: "museo_sans300", sans;
+  font-family: "museo_sans700", sans;
+  font-weight: 700;
 `;
 
 export const Burger = styled.button`
