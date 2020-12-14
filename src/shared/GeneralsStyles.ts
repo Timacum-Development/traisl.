@@ -32,7 +32,6 @@ export default createGlobalStyle`
 		height: 100%;
 		min-height: 100%;
 		margin: 0;
-		overflow: hidden;
 		font-family: 'Playfair Display', serif;
 		box-sizing: border-box;
 		font-size: 16px;
@@ -67,6 +66,12 @@ export default createGlobalStyle`
 
 	.container {
 		max-width: 1280px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.container2 {
+		max-width: 1680px;
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -113,7 +118,7 @@ export default createGlobalStyle`
 		font-size: 1.0625rem;
 		font-family: 'museo_sans300', sans;
 		font-weight: 300;
-		line-height: 2;
+		line-height: 1.8;
 	}
 
 

@@ -24,4 +24,5 @@ export const ZoomBtn = styled.img`
   display: block;
   width: 51px;
   height: 51px;
+  margin: 40px;
 `;
