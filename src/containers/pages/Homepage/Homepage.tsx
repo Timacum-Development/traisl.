@@ -21,13 +21,22 @@ import {
   Promo,
   YellowRectangle,
   PromoImg,
+  ImageGallery,
+  ImageFirst,
+  ImageSecond,
+  FirstImageWrap,
+  About,
 } from "./style";
 import MainLink from "../../../shared/components/Link";
 import Btn from "../../../shared/components/Button";
 import Pagination from "../../../shared/components/Slider";
 import CardText from "../../../shared/components/RentagleText";
+import CallToAction from "../../../shared/components/CTA";
 import Credits from "../../../shared/components/PhotoCredit";
-import { getTsBuildInfoEmitOutputFilePath } from "typescript";
+import {
+  convertTypeAcquisitionFromJson,
+  getTsBuildInfoEmitOutputFilePath,
+} from "typescript";
 
 // Assets
 
@@ -126,6 +135,30 @@ const Homepage = () => {
           </PromoImg>
         </YellowRectangle>
       </Promo>
+      <ImageGallery className="container2">
+        <Credits photoby="Photo:" text="Samantha G." />
+        <FirstImageWrap>
+          <ImageFirst>
+            <a>
+              <Btn />
+            </a>
+          </ImageFirst>
+          <PageNumberWrap>
+            <Pagination text="7" />
+            <PageLine />
+            <Pagination text="23" />
+          </PageNumberWrap>
+        </FirstImageWrap>
+        <ImageSecond>
+          <a>
+            <Btn />
+          </a>
+        </ImageSecond>
+        <Credits photoby="Photo:" text="Michael C." />
+      </ImageGallery>
+      <About>
+        <CallToAction text="Read more" />
+      </About>
     </React.Fragment>
   );
 };

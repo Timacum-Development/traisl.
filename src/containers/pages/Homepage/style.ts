@@ -5,6 +5,8 @@ import { color } from "../../../shared/styles";
 import Bg1 from "../../../assets/geyser.png";
 import LakeImg from "../../../assets/lake.png";
 import WaterImg from "../../../assets/water.png";
+import IslandImg from "../../../assets/island.png";
+import SnowImg from "../../../assets/snow.png";
 
 export const Hero = styled.section`
   display: flex;
@@ -156,7 +158,8 @@ export const SideParagraph = styled.p`
 `;
 
 export const Promo = styled.section`
-  padding-right: 300px;
+  padding-right: 200px;
+  margin-bottom: 198px;
 `;
 
 export const YellowRectangle = styled.div`
@@ -171,7 +174,7 @@ export const YellowRectangle = styled.div`
     height: 16px;
     background-color: ${color.yellow};
     position: absolute;
-    top: -10px;
+    top: -15px;
     left: 199px;
   }
 
@@ -181,7 +184,7 @@ export const YellowRectangle = styled.div`
     height: 51px;
     background-color: ${color.yellow};
     position: absolute;
-    right: -10px;
+    right: -15px;
   }
 `;
 
@@ -196,3 +199,33 @@ export const PromoImg = styled.div`
   position: absolute;
   right: -100px;
 `;
+
+export const ImageGallery = styled.section`
+  display: flex;
+`;
+
+export const ImageFirst = styled.div`
+  width: 100%;
+  height: 483px;
+  background: url(${IslandImg}) no-repeat center;
+  background-position: cover;
+  display: flex;
+  align-items: flex-end;
+`;
+
+export const ImageSecond = styled.div`
+  width: 40%;
+  height: 483px;
+  background: url(${SnowImg}) no-repeat center;
+  background-position: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+`;
+
+export const FirstImageWrap = styled.div`
+  width: 40%;
+  padding-bottom: 240px;
+`;
+
+export const About = styled.section``;
