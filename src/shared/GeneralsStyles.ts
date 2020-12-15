@@ -38,6 +38,9 @@ export default createGlobalStyle`
 		height: 100%;
 	}
 
+	* {
+		box-sizing: border-box;
+	}
 
 	body {
 		display: flex;
@@ -134,4 +137,24 @@ export default createGlobalStyle`
 		text-align: left;
 		cursor: pointer;
 	}
+
+	.gallery-pagination {
+		max-width: 120px;
+    	margin-left: 100px;
+	}
+
+	.justify-second {
+		text-align: justify;
+		margin-right: 100px;
+	}
+
+	.h2-style {
+		max-width: 570px;
+	}
+
+	.side-txt-second {
+		padding: 0;
+	}
+    
+	
 `;

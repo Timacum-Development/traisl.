@@ -123,7 +123,7 @@ export const Travel = styled.section`
 
 export const Experience = styled.div`
   display: flex;
-  width: 50%;
+  width: 60%;
   padding: 0 98px 0 200px;
 `;
 
@@ -132,7 +132,7 @@ export const ExperienceText = styled.div`
 `;
 
 export const Nature = styled.div`
-  width: 35%;
+  width: 30%;
   height: 601px;
   background: url(${LakeImg}) no-repeat right;
   background-position: cover;
@@ -166,9 +166,11 @@ export const Promo = styled.section`
 `;
 
 export const YellowRectangle = styled.div`
+  display: flex;
+  justify-content: flex-end;
   max-width: 1381px;
   background-color: ${color.lightYellow};
-  padding: 144px 110px 147px 395px;
+  padding: 144px 110px 147px 0;
   position: relative;
 
   &:before {
@@ -188,6 +190,22 @@ export const YellowRectangle = styled.div`
     background-color: ${color.yellow};
     position: absolute;
     right: -15px;
+    bottom: 120px;
+    z-index: -1;
+  }
+`;
+
+export const YellowContent = styled.div`
+  max-width: 876px;
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 7px;
+    height: 137px;
+    background-color: ${color.black};
+    position: absolute;
+    left: -100px;
   }
 `;
 
@@ -201,6 +219,7 @@ export const PromoImg = styled.div`
   justify-content: center;
   position: absolute;
   right: -100px;
+  bottom: -127px;
 `;
 
 export const ImageGallery = styled.section`
@@ -208,27 +227,45 @@ export const ImageGallery = styled.section`
 `;
 
 export const ImageFirst = styled.div`
-  width: 100%;
+  max-width: 801px;
   height: 483px;
   background: url(${IslandImg}) no-repeat center;
-  background-position: cover;
+  background-size: cover;
   display: flex;
   align-items: flex-end;
 `;
 
 export const ImageSecond = styled.div`
-  width: 40%;
+  max-width: 801px;
   height: 483px;
-  background: url(${SnowImg}) no-repeat center;
-  background-position: cover;
+  background: url(${SnowImg}) no-repeat center top;
+  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  position: relative;
+  z-index: -1;
 `;
 
 export const FirstImageWrap = styled.div`
-  width: 40%;
+  width: 50%;
   padding-bottom: 240px;
 `;
 
-export const About = styled.section``;
+export const SecondImageWrap = styled.div`
+  width: 50%;
+  padding-top: 240px;
+`;
+
+export const SliderWrapper = styled.div`
+  display: flex;
+`;
+export const About = styled.section`
+  padding: 196px 200px 299px 165px;
+`;
+
+export const AboutText = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+`;

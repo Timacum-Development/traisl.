@@ -20,12 +20,16 @@ import {
   SideParagraph,
   Promo,
   YellowRectangle,
+  YellowContent,
   PromoImg,
   ImageGallery,
   ImageFirst,
   ImageSecond,
   FirstImageWrap,
+  SecondImageWrap,
+  SliderWrapper,
   About,
+  AboutText,
 } from "./style";
 import MainLink from "../../../shared/components/Link";
 import Btn from "../../../shared/components/Button";
@@ -122,13 +126,15 @@ const Homepage = () => {
       </Travel>
       <Promo className="container2">
         <YellowRectangle>
-          <Pagination text="3" />
-          <CardText
-            heading="Topping headlines, topping bucket lists.
+          <YellowContent>
+            <Pagination text="3" />
+            <CardText
+              heading="Topping headlines, topping bucket lists.
             There seems no end to the glorious talents of the breathtaking northern destination."
-            text="And it works a treat: some crisp clean air, an eyeful of the cinematic landscapes, and everyone is transfixed."
-            style={{ maxWidth: "600px" }}
-          />
+              text="And it works a treat: some crisp clean air, an eyeful of the cinematic landscapes, and everyone is transfixed."
+              style={{ maxWidth: "600px" }}
+            />
+          </YellowContent>
           <PromoImg>
             <a>
               <Btn play />
@@ -137,27 +143,59 @@ const Homepage = () => {
         </YellowRectangle>
       </Promo>
       <ImageGallery className="container2">
-        <Credits photoby="Photo:" text="Samantha G." />
         <FirstImageWrap>
           <ImageFirst>
             <a>
               <Btn />
             </a>
           </ImageFirst>
-          <PageNumberWrap>
+          <SliderWrapper>
+            <a>
+              <Btn reverse />
+            </a>
+            <a>
+              <Btn ylw />
+            </a>
+          </SliderWrapper>
+          <PageNumberWrap className="gallery-pagination">
             <Pagination text="7" />
             <PageLine />
             <Pagination text="23" />
           </PageNumberWrap>
         </FirstImageWrap>
-        <ImageSecond>
-          <a>
-            <Btn />
-          </a>
-        </ImageSecond>
-        <Credits photoby="Photo:" text="Michael C." />
+        <SecondImageWrap>
+          <ImageSecond>
+            <a>
+              <Btn />
+            </a>
+          </ImageSecond>
+        </SecondImageWrap>
       </ImageGallery>
-      <About>
+      <About className="container2">
+        <Pagination text="4" />
+        <h2 className="h2-style">Mindblowing island and its nature.</h2>
+        <AboutText>
+          <p className="justify-second">
+            Don't for a minute think it's all about the great outdoors. The
+            counterpoint to so much natural beauty is found in Iceland's
+            cultural life, which celebrates a literary legacy that stretches
+            from medieval sagas to contemporary thrillers by way of Nobel Prize
+            winners.
+          </p>
+          <p className="justify-second">
+            Don't for a minute think it's all about the great outdoors. The
+            counterpoint to so much natural beauty is found in Iceland's
+            cultural life, which celebrates a literary legacy that stretches
+            from medieval sagas to contemporary thrillers by way of Nobel Prize
+            winners.
+          </p>
+          <SideText className="side-txt-second">
+            <SideParagraph>
+              Clean air, an eyeful of the cinematic landscapes, and everyone is
+              transfixed.
+            </SideParagraph>
+          </SideText>
+        </AboutText>
         <CallToAction text="Read more" />
       </About>
     </React.Fragment>

@@ -7,9 +7,10 @@ import PlayButton from "../../../assets/play-btn.png";
 import RightSlider from "../../../assets/black-slider.png";
 import LeftSlider from "../../../assets/yellow-slider.png";
 import ZoomButton from "../../../assets/zoom.png";
+import BlackReverse from "../../../assets/black-reverse.png";
 
 const Btn = (props: any) => {
-  const { play, blk, ylw } = props;
+  const { play, blk, ylw, reverse } = props;
 
   return (
     <React.Fragment>
@@ -19,6 +20,8 @@ const Btn = (props: any) => {
         <BlackSlider src={RightSlider} />
       ) : !blk && ylw ? (
         <YellowSlider src={LeftSlider} />
+      ) : !blk && reverse ? (
+        <BlackSlider src={BlackReverse} />
       ) : (
         <ZoomBtn src={ZoomButton} />
       )}

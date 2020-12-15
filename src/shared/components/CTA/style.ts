@@ -11,6 +11,7 @@ export const Action = styled.a`
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
+  filter: drop-shadow(0 5px 5px ${color.grey});
 `;
 
 export const Arrow = styled.img`
