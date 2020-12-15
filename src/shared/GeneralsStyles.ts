@@ -144,6 +144,7 @@ export default createGlobalStyle`
 	}
 
 	.justify-second {
+		max-width: 440px;
 		text-align: justify;
 		margin-right: 100px;
 	}
@@ -156,5 +157,19 @@ export default createGlobalStyle`
 		padding: 0;
 	}
     
-	
+	.h4-style {
+		max-width: 800px;
+    	text-align: center;
+		font-family: 'museo_sans700', sans; 
+		font-style: italic;
+		line-height: 1.5;
+		margin-bottom: 33px;
+	}
+
+	.p-style {
+		font-size: 0.9375rem;
+		font-family: 'museo_sans700', sans;
+		font-weight: 700;
+		color: ${color.grey};
+	}
 `;

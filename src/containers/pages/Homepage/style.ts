@@ -7,6 +7,7 @@ import LakeImg from "../../../assets/lake.png";
 import WaterImg from "../../../assets/water.png";
 import IslandImg from "../../../assets/island.png";
 import SnowImg from "../../../assets/snow.png";
+import LandscapeImg from "../../../assets/mountain.png";
 
 export const Hero = styled.section`
   display: flex;
@@ -149,6 +150,9 @@ export const SideText = styled.div`
 
 export const SideParagraph = styled.p`
   position: relative;
+  font-family: "museo_sans500", sans;
+  font-weight: 500;
+  font-style: italic;
 
   &:before {
     content: "";
@@ -262,10 +266,74 @@ export const SliderWrapper = styled.div`
 `;
 export const About = styled.section`
   padding: 196px 200px 299px 165px;
+  display: flex;
 `;
 
 export const AboutText = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 80px;
+`;
+
+export const Offer = styled.section`
+  padding-left: 100px;
+  margin-bottom: 200px;
+`;
+
+export const Mountain = styled.div`
+  max-width: 1581px;
+  height: 421px;
+  background: url(${LandscapeImg}) no-repeat center top;
+  background-position: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+
+  &:after {
+    content: "";
+    width: 201px;
+    height: 16px;
+    background-color: ${color.yellow};
+    position: absolute;
+    bottom: -16px;
+    left: 100px;
+  }
+`;
+
+export const YellowOffer = styled.div`
+  max-width: 841px;
+  padding: 71px 100px 78px 106px;
+  background-color: ${color.lightYellow};
+  position: relative;
+  bottom: 167px;
+`;
+
+export const Quotes = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+export const QuoteImg = styled.img`
+  display: block;
+  width: 78px;
+  height: 64px;
+`;
+
+export const QuoteImgWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+`;
+
+export const QuoteWrap = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const QuoteName = styled.div`
+  width: 100%;
+  text-align: center;
 `;

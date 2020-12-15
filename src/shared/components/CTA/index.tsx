@@ -5,9 +5,9 @@ import { Action, Arrow } from "./style";
 import ArrowImg from "../../../assets/yellow-arrow.png";
 
 const CallToAction = (props: any) => {
-  const { text } = props;
+  const { text, style } = props;
   return (
-    <Action>
+    <Action style={style}>
       {text}
       <Arrow src={ArrowImg} />
     </Action>
