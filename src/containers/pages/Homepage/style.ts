@@ -10,7 +10,7 @@ import SnowImg from "../../../assets/snow.png";
 
 export const Hero = styled.section`
   display: flex;
-  margin-bottom: 195px;
+  /* margin-bottom: 195px; */
 `;
 
 export const Social = styled.div`
@@ -50,17 +50,20 @@ export const GeyserBg = styled.div`
 `;
 
 export const Buttons = styled.div`
-  width: 40%;
-  position: absolute;
+  /* position: absolute;
   left: 53%;
-  top: 51%;
-  z-index: 25;
+  top: 51%; */
   /* width: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateY(-50%);
   z-index: 25; */
+  max-width: 650px;
+  z-index: 25;
+  position: relative;
+  left: 770px;
+  top: 392px;
 `;
 
 export const ButtonPageWrap = styled.div`
@@ -113,14 +116,15 @@ export const HeadingWrap = styled.div`
 export const Travel = styled.section`
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-bottom: 197px;
+  align-items: center;
+  padding: 197px 0 199px 0;
+  /* margin-bottom: 197px; */
 `;
 
 export const Experience = styled.div`
   display: flex;
   width: 50%;
-  padding: 0 100px 0 200px;
+  padding: 0 98px 0 200px;
 `;
 
 export const ExperienceText = styled.div`
@@ -128,7 +132,7 @@ export const ExperienceText = styled.div`
 `;
 
 export const Nature = styled.div`
-  width: 30%;
+  width: 35%;
   height: 601px;
   background: url(${LakeImg}) no-repeat right;
   background-position: cover;
@@ -140,16 +144,15 @@ export const Nature = styled.div`
 export const SideText = styled.div`
   display: flex;
   align-items: center;
-  padding-right: 96px;
+  padding: 120px 47px 0 0;
 `;
 
 export const SideParagraph = styled.p`
   position: relative;
-  max-width: 218px;
 
   &:before {
     content: "";
-    width: 201px;
+    width: 100%;
     height: 5px;
     background-color: ${color.black};
     position: absolute;
@@ -158,8 +161,8 @@ export const SideParagraph = styled.p`
 `;
 
 export const Promo = styled.section`
-  padding-right: 200px;
-  margin-bottom: 198px;
+  /* padding-right: 200px; */
+  padding-bottom: 198px;
 `;
 
 export const YellowRectangle = styled.div`

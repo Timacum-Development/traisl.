@@ -49,22 +49,23 @@ const Homepage = () => {
           <MainLink text="Facebook" />
           <MainLink text="Instagram" />
         </Social>
-        <Buttons>
-          <a>
-            <Btn play />
-          </a>
-          <ButtonPageWrap>
+        <GeyserBg>
+          <Buttons>
             <a>
-              <Btn blk />
+              <Btn play />
             </a>
-            <PageNumberWrap>
-              <Pagination text="2" />
-              <PageLine />
-              <Pagination text="5" />
-            </PageNumberWrap>
-          </ButtonPageWrap>
-        </Buttons>
-        <GeyserBg></GeyserBg>
+            <ButtonPageWrap>
+              <a>
+                <Btn blk />
+              </a>
+              <PageNumberWrap>
+                <Pagination text="2" />
+                <PageLine />
+                <Pagination text="5" />
+              </PageNumberWrap>
+            </ButtonPageWrap>
+          </Buttons>
+        </GeyserBg>
         <YellowBg></YellowBg>
         <Intro>
           <HeadingWrap>
@@ -92,14 +93,14 @@ const Homepage = () => {
               The warmth of Icelanders is disarming, as is their industriousn
             </SideParagraph>
           </SideText>
-          <Pagination text="2" style={{ padding: "0px 26px 0px 0px" }} />
+          <Pagination text="2" style={{ padding: "10px 26px 0px 0px" }} />
           <ExperienceText>
             <h2>Extraordinary experience on the Iceland.</h2>
             <h5>
               It's the power of Icelandic nature to turn the prosaic into the
               extraordinary.{" "}
             </h5>
-            <p>
+            <p className="justify">
               An underpopulated island marooned near the top of the globe,
               Iceland is, literally, a country in the making. It's a vast
               volcanic laboratory where mighty forces shape the earth: geysers
@@ -117,7 +118,7 @@ const Homepage = () => {
             <Btn />
           </a>
         </Nature>
-        <Credits photoby="Photo:" text="Nicole B." />
+        <Credits photoby="Photo:" text="NicoleB." />
       </Travel>
       <Promo className="container2">
         <YellowRectangle>

@@ -121,6 +121,10 @@ export default createGlobalStyle`
 		line-height: 1.8;
 	}
 
+	.justify {
+		text-align: justify;
+	}
+
 
 	a {
 		text-decoration: none;
