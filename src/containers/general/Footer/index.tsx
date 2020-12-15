@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Components
-import Header from './Header';
+import Footer from './Footer';
 
 const Index = () => {
-	return <Header />;
+	return <Footer />;
 };
 
 export default Index;
