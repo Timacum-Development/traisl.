@@ -145,7 +145,6 @@ export const Nature = styled.div`
 export const SideText = styled.div`
   display: flex;
   align-items: center;
-  padding: 120px 47px 0 0;
 `;
 
 export const SideParagraph = styled.p`
@@ -277,7 +276,6 @@ export const AboutText = styled.div`
 
 export const Offer = styled.section`
   padding-left: 100px;
-  margin-bottom: 200px;
 `;
 
 export const Mountain = styled.div`
@@ -313,6 +311,8 @@ export const Quotes = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 198px 0 256px 0;
+  position: relative;
 `;
 
 export const QuoteImg = styled.img`
@@ -336,4 +336,8 @@ export const QuoteWrap = styled.div`
 export const QuoteName = styled.div`
   width: 100%;
   text-align: center;
+`;
+
+export const TextFlex = styled.div`
+  display: flex;
 `;

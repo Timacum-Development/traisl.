@@ -38,6 +38,7 @@ import {
   QuoteWrap,
   QuoteImgWrap,
   QuoteName,
+  TextFlex,
 } from "./style";
 
 import MainLink from "../../../shared/components/Link";
@@ -103,7 +104,7 @@ const Homepage = () => {
       </Hero>
       <Travel className="container2">
         <Experience>
-          <SideText>
+          <SideText className="side-txt-second">
             <SideParagraph>
               The warmth of Icelanders is disarming, as is their industriousn
             </SideParagraph>
@@ -201,7 +202,7 @@ const Homepage = () => {
               that its Nordic brethren are famous for – all of which is wrapped
               in Iceland's assured individuality.
             </p>
-            <SideText className="side-txt-second">
+            <SideText>
               <SideParagraph>
                 Clean air, an eyeful of the cinematic landscapes, and everyone
                 is transfixed.
@@ -214,17 +215,28 @@ const Homepage = () => {
       <Offer className="container2">
         <Mountain>
           <YellowOffer>
-            <CardText
-              heading="The flights and accomondations on Iceland through our partners"
-              text="Iceland is a country of sharp contrasts. A place where fire and ice co-exist. Where dark winters are offset by the summer’s midnight sun. A country where insular existence has spurred a rich and vibrant culture."
-            />
+            <TextFlex>
+              <Pagination text="5" />
+              <CardText
+                heading="The flights and accomondations on Iceland through our partners"
+                text="Iceland is a country of sharp contrasts. A place where fire and ice co-exist. Where dark winters are offset by the summer’s midnight sun. A country where insular existence has spurred a rich and vibrant culture."
+              />
+            </TextFlex>
             <a>
               <Btn
                 play
                 style={{ position: "absolute", left: "-40px", bottom: "80px" }}
               />
             </a>
-            <CallToAction text="Check offers" />
+            <CallToAction
+              text="Check offers"
+              style={{
+                position: "absolute",
+                right: "100px",
+                bottom: "-30px",
+                filter: "none",
+              }}
+            />
           </YellowOffer>
         </Mountain>
       </Offer>
