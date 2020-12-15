@@ -160,15 +160,16 @@ const Homepage = () => {
             <a>
               <Btn />
             </a>
+            <SliderWrapper>
+              <a>
+                <Btn reverse />
+              </a>
+              <a>
+                <Btn ylw />
+              </a>
+            </SliderWrapper>
           </ImageFirst>
-          <SliderWrapper>
-            <a>
-              <Btn reverse />
-            </a>
-            <a>
-              <Btn ylw />
-            </a>
-          </SliderWrapper>
+
           <PageNumberWrap className="gallery-pagination">
             <Pagination text="7" />
             <PageLine />

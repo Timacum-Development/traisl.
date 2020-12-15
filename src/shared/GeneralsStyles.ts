@@ -154,7 +154,7 @@ export default createGlobalStyle`
 	}
 
 	.side-txt-second {
-		padding: 120px 47px 0 0;
+		padding: 120px 37px 0 0;
 	}
     
 	.h4-style {

@@ -126,6 +126,8 @@ export const Experience = styled.div`
   display: flex;
   width: 60%;
   padding: 0 98px 0 200px;
+  /* max-width: 781px;
+  margin: 0 auto; */
 `;
 
 export const ExperienceText = styled.div`
@@ -230,7 +232,7 @@ export const ImageGallery = styled.section`
 `;
 
 export const ImageFirst = styled.div`
-  max-width: 801px;
+  width: 100%;
   height: 483px;
   background: url(${IslandImg}) no-repeat center;
   background-size: cover;
@@ -239,7 +241,7 @@ export const ImageFirst = styled.div`
 `;
 
 export const ImageSecond = styled.div`
-  max-width: 801px;
+  width: 100%;
   height: 483px;
   background: url(${SnowImg}) no-repeat center top;
   background-size: cover;
@@ -251,17 +253,46 @@ export const ImageSecond = styled.div`
 `;
 
 export const FirstImageWrap = styled.div`
-  width: 50%;
+  width: 48%;
   padding-bottom: 240px;
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 16px;
+    height: 51px;
+    background-color: ${color.yellow};
+    position: absolute;
+    right: -16px;
+    top: 155px;
+  }
 `;
 
 export const SecondImageWrap = styled.div`
-  width: 50%;
-  padding-top: 240px;
+  width: 48%;
+  padding-top: 270px;
+  position: relative;
+  left: -110px;
+
+  &:before {
+    content: "";
+    width: 16px;
+    height: 51px;
+    background-color: ${color.yellow};
+    position: absolute;
+    left: -16px;
+    bottom: 346px;
+    z-index: -1;
+  }
 `;
 
 export const SliderWrapper = styled.div`
   display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 180px;
+  left: 650px;
+  z-index: 40;
 `;
 export const About = styled.section`
   padding: 196px 200px 299px 165px;
