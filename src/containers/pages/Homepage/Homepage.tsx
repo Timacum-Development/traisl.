@@ -61,9 +61,9 @@ const Homepage = () => {
     <React.Fragment>
       <Hero className="container2">
         <Social>
-          <MainLink text="Pinterest" />
-          <MainLink text="Facebook" />
-          <MainLink text="Instagram" />
+          <MainLink social text="Pinterest" />
+          <MainLink social text="Facebook" />
+          <MainLink social text="Instagram" />
         </Social>
         <GeyserBg>
           <Buttons>

@@ -1,15 +1,19 @@
 import React from "react";
-import { LinkFirst } from "./style";
+import { LinkFirst, LinkSecond } from "./style";
 
 const MainLink = (props: any) => {
   console.log(props);
 
-  const { onClick, text } = props;
+  const { onClick, text, social } = props;
   return (
     <React.Fragment>
-      <LinkFirst onClick={onClick} href="#">
-        {text}
-      </LinkFirst>
+      {social ? (
+        <LinkFirst onClick={onClick} href="#">
+          {text}
+        </LinkFirst>
+      ) : (
+        <LinkSecond onClick={onClick}>{text}</LinkSecond>
+      )}
     </React.Fragment>
   );
 };

@@ -113,6 +113,12 @@ export default createGlobalStyle`
 
 	h6 {
 		font-size: 0.875rem;
+		color: ${color.white};
+		font-family: 'museo_sans700', sans;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 30px;
+		
 	}
 
 	p {
@@ -170,4 +176,21 @@ export default createGlobalStyle`
 		font-weight: 700;
 		color: ${color.grey};
 	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		font-size: 0;
+		margin-bottom: 10px;
+
+		&:last-of-type {
+			margin: 0;
+		}
+	}
+
+	
 `;
