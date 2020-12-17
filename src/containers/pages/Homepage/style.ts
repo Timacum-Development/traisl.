@@ -313,7 +313,6 @@ export const Offer = styled.section`
 
 export const Mountain = styled.div`
   max-width: 1581px;
-  height: 421px;
   background: url(${LandscapeImg}) no-repeat center top;
   background-position: cover;
   position: relative;

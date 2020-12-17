@@ -39,7 +39,8 @@ export const YellowBox = styled.div`
   padding: 40px 100px;
   background-color: ${color.yellow};
   position: relative;
-  top: -80px;
+  top: 50%;
+  transform: translateY(-50%);
 `;
 
 export const Adress = styled.input`
