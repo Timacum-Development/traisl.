@@ -26,7 +26,7 @@ const Footer = () => {
               filter: "none",
               position: "absolute",
               right: "0px",
-              top: "-8px",
+              top: "-6px",
             }}
           />
         </AdressWrap>
@@ -97,11 +97,23 @@ const Footer = () => {
         <SecondMenu>
           <InfoWrap>
             <h6>Contact</h6>
-            <ContactInfo>Traisl.</ContactInfo>
-            <MainLink text="Höfðabakki 27a" />
-            <MainLink text="Reykjavík, Iceland" />
-            <MainLink text="P: +354 4 278 94 832a" />
-            <ContactInfo>E: info@traisl.co</ContactInfo>
+            <ul>
+              <li>
+                <ContactInfo>Traisl.</ContactInfo>
+              </li>
+              <li>
+                <MainLink text="Höfðabakki 27a" />
+              </li>
+              <li>
+                <MainLink text="Reykjavík, Iceland" />
+              </li>
+              <li>
+                <MainLink text="P: +354 4 278 94 832a" />
+              </li>
+              <li>
+                <ContactInfo>E: info@traisl.co</ContactInfo>
+              </li>
+            </ul>
           </InfoWrap>
           <InfoWrap>
             <h6>Social</h6>

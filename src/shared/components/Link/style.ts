@@ -3,16 +3,12 @@ import { color } from "../../styles";
 
 const SocialAnimation = keyframes`
   0% {
-    /* border-bottom: 2px solid ${color.black};
-    padding-bottom: 9px; */
     text-decoration: underline;
     text-underline-offset: 9px;
     text-decoration-thickness: 2px;
   }
 
   100% {
-    /* border-bottom: 2px solid ${color.black};
-    padding-bottom: 9px; */
     text-decoration: underline;
     text-underline-offset: 9px;
     text-decoration-thickness: 2px;
@@ -51,11 +47,12 @@ export const LinkSecond = styled.p`
   color: ${color.grey};
   text-transform: capitalize;
   cursor: pointer;
+  transition: 0.15s ease-in-out;
 
   &:hover {
     color: ${color.white};
     font-family: "museo_sans700", sans;
-    text-shadow: 0 1px ${color.white};
-    animation: ${InfoAnimation} 0.25s ease-in-out forwards;
+    text-shadow: 0 0.2px ${color.white};
+    animation: ${InfoAnimation} 0.15s ease-in-out forwards;
   }
 `;

@@ -45,9 +45,9 @@ export const YellowBox = styled.div`
 export const Adress = styled.input`
   width: 100%;
   border: none;
-  border-bottom: 1px solid ${color.black};
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   background-color: transparent;
-  padding: 24px 0 17px 0;
+  padding: 23px 0 20px 0;
   outline: none;
 
   &::placeholder {

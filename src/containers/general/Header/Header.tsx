@@ -20,7 +20,7 @@ import MagnifierImg from "../../../assets/magnifier.png";
 const Header = () => {
   return (
     <HeaderWrap className="container">
-      <a href="">
+      <a href="/">
         <Logo src={LogoImg} />
       </a>
       <RightWrap>
