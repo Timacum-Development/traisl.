@@ -374,3 +374,14 @@ export const QuoteName = styled.div`
 export const TextFlex = styled.div`
   display: flex;
 `;
+
+export const FamousQuote = styled.p`
+  font-family: "museo_sans700", sans;
+  font-weight: 700;
+  color: ${color.grey};
+  writing-mode: vertical-lr;
+  position: absolute;
+  right: 46px;
+  top: 50%;
+  transform: translateY(-50%);
+`;

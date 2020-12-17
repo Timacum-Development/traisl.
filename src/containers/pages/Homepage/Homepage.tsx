@@ -39,6 +39,7 @@ import {
   QuoteImgWrap,
   QuoteName,
   TextFlex,
+  FamousQuote,
 } from "./style";
 
 import MainLink from "../../../shared/components/Link";
@@ -257,6 +258,7 @@ const Homepage = () => {
         <QuoteName>
           <p className="p-style">Dagobert D. Runes</p>
         </QuoteName>
+        <FamousQuote>Famous quotes</FamousQuote>
       </Quotes>
     </React.Fragment>
   );
