@@ -154,27 +154,28 @@ const Homepage = () => {
           </PromoImg>
         </YellowRectangle>
       </Promo>
+
       <ImageGallery className="container2">
+        <Credits photoby="Photo:" text="NicoleB." />
         <FirstImageWrap>
           <ImageFirst>
             <a>
               <Btn />
             </a>
-            <SliderWrapper>
-              <a>
-                <Btn reverse />
-              </a>
-              <a>
-                <Btn ylw />
-              </a>
-            </SliderWrapper>
           </ImageFirst>
-
           <PageNumberWrap className="gallery-pagination">
             <Pagination text="7" />
             <PageLine />
             <Pagination text="23" />
           </PageNumberWrap>
+          <SliderWrapper>
+            <a>
+              <Btn reverse />
+            </a>
+            <a>
+              <Btn ylw />
+            </a>
+          </SliderWrapper>
         </FirstImageWrap>
         <SecondImageWrap>
           <ImageSecond>
@@ -182,6 +183,7 @@ const Homepage = () => {
               <Btn />
             </a>
           </ImageSecond>
+          <Credits photoby="Photo:" text="NicoleB." />
         </SecondImageWrap>
       </ImageGallery>
       <About className="container2">

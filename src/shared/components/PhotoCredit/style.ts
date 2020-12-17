@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { color } from "../../styles";
 
 export const CreditWrap = styled.div`
-  /* padding: 0 45px; */
+  padding: 0 45px;
   display: flex;
-  transform: rotate(90deg);
+  justify-content: center;
+  writing-mode: vertical-lr;
 `;
 
 export const CreditText = styled.p`

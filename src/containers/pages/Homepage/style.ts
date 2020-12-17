@@ -254,7 +254,8 @@ export const ImageSecond = styled.div`
 
 export const FirstImageWrap = styled.div`
   width: 48%;
-  padding-bottom: 240px;
+  /* padding-bottom: 240px; */
+  padding-bottom: 110px;
   position: relative;
 
   &:after {
@@ -264,11 +265,12 @@ export const FirstImageWrap = styled.div`
     background-color: ${color.yellow};
     position: absolute;
     right: -16px;
-    top: 155px;
+    top: 170px;
   }
 `;
 
 export const SecondImageWrap = styled.div`
+  display: flex;
   width: 48%;
   padding-top: 270px;
   position: relative;
@@ -290,8 +292,8 @@ export const SliderWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 180px;
-  left: 650px;
+  top: -320px;
+  left: 180px;
   z-index: 40;
 `;
 export const About = styled.section`
@@ -332,7 +334,7 @@ export const Mountain = styled.div`
 
 export const YellowOffer = styled.div`
   max-width: 841px;
-  padding: 71px 100px 78px 106px;
+  padding: 71px 100px 50px 82px;
   background-color: ${color.lightYellow};
   position: relative;
   bottom: 167px;

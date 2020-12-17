@@ -30,12 +30,10 @@ export default createGlobalStyle`
 
 	html, body, #root {
 		height: 100%;
-		min-height: 100%;
 		margin: 0;
 		font-family: 'Playfair Display', serif;
 		box-sizing: border-box;
 		font-size: 16px;
-		height: 100%;
 	}
 
 	* {
