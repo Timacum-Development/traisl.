@@ -36,7 +36,7 @@ export const ContactInfo = styled.a`
 export const YellowBox = styled.div`
   margin-left: 100px;
   max-width: 841px;
-  padding: 33px 100px;
+  padding: 40px 100px;
   background-color: ${color.yellow};
   position: relative;
   top: -80px;

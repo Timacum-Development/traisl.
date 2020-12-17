@@ -19,7 +19,10 @@ const Footer = () => {
     <FooterWrap>
       <YellowBox>
         <AdressWrap>
-          <Adress placeholder="Enter your email address..."></Adress>
+          <Adress
+            type="text"
+            placeholder="Enter your email address..."
+          ></Adress>
           <CallToAction
             text="Subscribe"
             style={{

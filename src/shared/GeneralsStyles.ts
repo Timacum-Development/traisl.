@@ -191,6 +191,5 @@ export default createGlobalStyle`
 			margin: 0;
 		}
 	}
-
 	
 `;
