@@ -30,6 +30,7 @@ export const Action = styled.a`
     animation: ${CtaAnimation} 0.5s ease-in forwards;
     color: ${color.black};
     position: relative;
+    backface-visibility: hidden;
 
     &:before {
       content: "";
