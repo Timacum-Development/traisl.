@@ -155,7 +155,6 @@ const Homepage = () => {
           </PromoImg>
         </YellowRectangle>
       </Promo>
-
       <ImageGallery className="container2">
         <Credits photoby="Photo:" text="NicoleB." />
         <FirstImageWrap>

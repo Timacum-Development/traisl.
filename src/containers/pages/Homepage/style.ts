@@ -166,16 +166,7 @@ export const SideParagraph = styled.p`
 `;
 
 export const Promo = styled.section`
-  /* padding-right: 200px; */
   padding-bottom: 198px;
-`;
-
-export const YellowRectangle = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  max-width: 1381px;
-  background-color: ${color.lightYellow};
-  padding: 144px 110px 147px 0;
   position: relative;
 
   &:before {
@@ -186,6 +177,25 @@ export const YellowRectangle = styled.div`
     position: absolute;
     top: -15px;
     left: 199px;
+  }
+`;
+
+export const YellowRectangle = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1381px;
+  background-color: ${color.lightYellow};
+  padding: 144px 104px 126px 463px;
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 7px;
+    height: 145px;
+    background-color: ${color.black};
+    position: absolute;
+    left: 395px;
+    top: 30%;
   }
 
   &:after {
@@ -201,17 +211,8 @@ export const YellowRectangle = styled.div`
 `;
 
 export const YellowContent = styled.div`
-  max-width: 876px;
-  position: relative;
-
-  &:before {
-    content: "";
-    width: 7px;
-    height: 137px;
-    background-color: ${color.black};
-    position: absolute;
-    left: -100px;
-  }
+  display: flex;
+  align-items: flex-start;
 `;
 
 export const PromoImg = styled.div`
@@ -225,10 +226,12 @@ export const PromoImg = styled.div`
   position: absolute;
   right: -100px;
   bottom: -127px;
+  filter: drop-shadow(0 10px 10px ${color.grey});
 `;
 
 export const ImageGallery = styled.section`
   display: flex;
+  justify-content: center;
 `;
 
 export const ImageFirst = styled.div`
@@ -283,7 +286,7 @@ export const SecondImageWrap = styled.div`
     background-color: ${color.yellow};
     position: absolute;
     left: -16px;
-    bottom: 346px;
+    bottom: 0px;
     z-index: -1;
   }
 `;
@@ -318,7 +321,6 @@ export const Mountain = styled.div`
   position: relative;
   display: flex;
   justify-content: flex-end;
-  padding-right: 100px;
 
   &:after {
     content: "";
@@ -336,7 +338,19 @@ export const YellowOffer = styled.div`
   padding: 71px 100px 50px 82px;
   background-color: ${color.lightYellow};
   position: relative;
-  bottom: 167px;
+  bottom: 100px;
+  right: 100px;
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 16px;
+    height: 51px;
+    position: absolute;
+    right: -16px;
+    top: 50px;
+    background-color: ${color.yellow};
+  }
 `;
 
 export const Quotes = styled.section`
