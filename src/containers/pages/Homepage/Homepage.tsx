@@ -40,6 +40,7 @@ import {
   QuoteName,
   TextFlex,
   FamousQuote,
+  GalleryWrap,
 } from "./style";
 
 import MainLink from "../../../shared/components/Link";
@@ -161,34 +162,36 @@ const Homepage = () => {
           text="Samantha G."
           style={{ transform: "rotate(180deg)" }}
         />
-        <FirstImageWrap>
-          <ImageFirst>
-            <a>
-              <Btn />
-            </a>
-          </ImageFirst>
-          <PageNumberWrap className="gallery-pagination">
-            <Pagination text="7" />
-            <PageLine />
-            <Pagination text="23" />
-          </PageNumberWrap>
-          <SliderWrapper>
-            <a>
-              <Btn reverse />
-            </a>
-            <a>
-              <Btn ylw />
-            </a>
-          </SliderWrapper>
-        </FirstImageWrap>
-        <SecondImageWrap>
-          <ImageSecond>
-            <a>
-              <Btn />
-            </a>
-          </ImageSecond>
-          <Credits photoby="Photo:" text="Michael C." />
-        </SecondImageWrap>
+        <GalleryWrap>
+          <FirstImageWrap>
+            <ImageFirst>
+              <a>
+                <Btn />
+              </a>
+            </ImageFirst>
+            <PageNumberWrap className="gallery-pagination">
+              <Pagination text="7" />
+              <PageLine />
+              <Pagination text="23" />
+            </PageNumberWrap>
+            <SliderWrapper>
+              <a>
+                <Btn reverse />
+              </a>
+              <a>
+                <Btn ylw />
+              </a>
+            </SliderWrapper>
+          </FirstImageWrap>
+          <SecondImageWrap>
+            <ImageSecond>
+              <a>
+                <Btn />
+              </a>
+            </ImageSecond>
+          </SecondImageWrap>
+        </GalleryWrap>
+        <Credits photoby="Photo:" text="Michael C." />
       </ImageGallery>
       <About className="container2">
         <Pagination text="4" style={{ padding: "10px 30px 0px 0px" }} />

@@ -245,8 +245,12 @@ export const ImageSecond = styled.div`
   z-index: -1;
 `;
 
+export const GalleryWrap = styled.div`
+  width: 100%;
+  display: flex;
+`;
 export const FirstImageWrap = styled.div`
-  width: 48%;
+  width: 50%;
   position: relative;
 
   &:after {
@@ -262,7 +266,7 @@ export const FirstImageWrap = styled.div`
 
 export const SecondImageWrap = styled.div`
   display: flex;
-  width: 48%;
+  width: 50%;
   padding-top: 270px;
   position: relative;
   left: -110px;
@@ -274,7 +278,7 @@ export const SecondImageWrap = styled.div`
     background-color: ${color.yellow};
     position: absolute;
     left: -16px;
-    bottom: 0px;
+    bottom: 220px;
     z-index: -1;
   }
 `;
