@@ -69,11 +69,11 @@ const Homepage = () => {
         </Social>
         <GeyserBg>
           <Buttons>
-            <a>
+            <a href="">
               <Btn play />
             </a>
             <ButtonPageWrap>
-              <a>
+              <a href="">
                 <Btn blk />
               </a>
               <PageNumberWrap>
@@ -132,7 +132,7 @@ const Homepage = () => {
           </ExperienceText>
         </Experience>
         <Nature>
-          <a>
+          <a href="">
             <Btn />
           </a>
         </Nature>
@@ -150,7 +150,7 @@ const Homepage = () => {
             />
           </YellowContent>
           <PromoImg>
-            <a>
+            <a href="">
               <Btn play />
             </a>
           </PromoImg>
@@ -165,7 +165,7 @@ const Homepage = () => {
         <GalleryWrap>
           <FirstImageWrap>
             <ImageFirst>
-              <a>
+              <a href="">
                 <Btn />
               </a>
             </ImageFirst>
@@ -175,17 +175,17 @@ const Homepage = () => {
               <Pagination text="23" />
             </PageNumberWrap>
             <SliderWrapper>
-              <a>
+              <a href="">
                 <Btn reverse />
               </a>
-              <a>
+              <a href="">
                 <Btn ylw />
               </a>
             </SliderWrapper>
           </FirstImageWrap>
           <SecondImageWrap>
             <ImageSecond>
-              <a>
+              <a href="">
                 <Btn />
               </a>
             </ImageSecond>
@@ -232,7 +232,7 @@ const Homepage = () => {
                 text="Iceland is a country of sharp contrasts. A place where fire and ice co-exist. Where dark winters are offset by the summer’s midnight sun. A country where insular existence has spurred a rich and vibrant culture."
               />
             </TextFlex>
-            <a>
+            <a href="">
               <Btn
                 play
                 style={{ position: "absolute", left: "-40px", bottom: "80px" }}
