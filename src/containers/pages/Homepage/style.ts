@@ -295,7 +295,8 @@ export const SecondImageWrap = styled.div`
   width: 50%;
   padding-top: 270px;
   position: relative;
-  left: -110px;
+  left: -150px;
+  z-index: -1;
 
   &:before {
     content: "";
