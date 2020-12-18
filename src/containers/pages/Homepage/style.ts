@@ -63,7 +63,7 @@ export const Buttons = styled.div`
   max-width: 650px;
   z-index: 25;
   position: relative;
-  left: 770px;
+  left: 755px;
   top: 392px;
 `;
 
@@ -99,19 +99,21 @@ export const PageLine = styled.div`
 `;
 
 export const Intro = styled.div`
-  max-width: 676px;
-  padding-top: 100px;
+  max-width: 700px;
+  padding-top: 90px;
   position: relative;
   left: -63px;
   z-index: 20;
 `;
 
 export const TextWrap = styled.div`
-  padding-left: 187px;
+  padding-left: 159px;
 `;
 
 export const HeadingWrap = styled.div`
   display: flex;
+  position: relative;
+  left: -35px;
 `;
 
 export const Travel = styled.section`
