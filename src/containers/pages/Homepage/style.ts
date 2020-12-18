@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { color } from "../../../shared/styles";
 
 //Assets
@@ -9,9 +9,31 @@ import IslandImg from "../../../assets/island.png";
 import SnowImg from "../../../assets/snow.png";
 import LandscapeImg from "../../../assets/mountain.png";
 
+export const Effect = keyframes`
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  75% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+`;
+
 export const Hero = styled.section`
   display: flex;
-  /* margin-bottom: 195px; */
+  animation: ${Effect} 1s ease-in backwards;
 `;
 
 export const Social = styled.div`
@@ -118,6 +140,7 @@ export const Experience = styled.div`
   display: flex;
   width: 60%;
   padding: 0 98px 0 129px;
+  animation: ${Effect} 0.3s ease-in backwards;
 `;
 
 export const ExperienceText = styled.div`
@@ -203,6 +226,7 @@ export const YellowRectangle = styled.div`
 export const YellowContent = styled.div`
   display: flex;
   align-items: flex-start;
+  animation: ${Effect} 0.3s ease-in backwards;
 `;
 
 export const PromoImg = styled.div`
@@ -226,6 +250,7 @@ export const ImageGallery = styled.section`
 
 export const ImageFirst = styled.div`
   width: 100%;
+  max-width: 805px;
   height: 483px;
   background: url(${IslandImg}) no-repeat center;
   background-size: cover;
@@ -235,6 +260,7 @@ export const ImageFirst = styled.div`
 
 export const ImageSecond = styled.div`
   width: 100%;
+  max-width: 805px;
   height: 483px;
   background: url(${SnowImg}) no-repeat center top;
   background-size: cover;
@@ -259,7 +285,7 @@ export const FirstImageWrap = styled.div`
     height: 51px;
     background-color: ${color.yellow};
     position: absolute;
-    right: -16px;
+    right: 75px;
     top: 170px;
   }
 `;
@@ -288,12 +314,13 @@ export const SliderWrapper = styled.div`
   justify-content: flex-end;
   position: relative;
   top: -320px;
-  left: 180px;
+  left: 80px;
   z-index: 40;
 `;
 export const About = styled.section`
   padding: 196px 200px 299px 165px;
   display: flex;
+  animation: ${Effect} 0.3s ease-in backwards;
 `;
 
 export const AboutText = styled.div`
@@ -333,6 +360,7 @@ export const YellowOffer = styled.div`
   bottom: 100px;
   right: 100px;
   position: relative;
+  animation: ${Effect} 0.3s ease-in backwards;
 
   &:after {
     content: "";
@@ -351,6 +379,7 @@ export const Quotes = styled.section`
   justify-content: center;
   padding: 198px 0 256px 0;
   position: relative;
+  animation: ${Effect} 0.3s ease-in backwards;
 `;
 
 export const QuoteImg = styled.img`

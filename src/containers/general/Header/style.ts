@@ -1,12 +1,27 @@
 import { findByLabelText } from "@testing-library/react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { color } from "../../../shared/styles";
+
+export const HeaderAnimation = keyframes`
+  0% {
+    transform: translateY(-300px);
+  }
+
+  50% {
+    transform: translateY(-150px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+`;
 
 export const HeaderWrap = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 44px 0 46px 0;
+  animation: ${HeaderAnimation} 1.2s ease-in-out forwards;
 `;
 
 export const Logo = styled.img`
