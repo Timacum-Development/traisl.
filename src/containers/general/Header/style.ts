@@ -63,7 +63,7 @@ export const Burger = styled.button`
   background-color: transparent;
   outline: none;
   border: none;
-  padding: 3px 0;
+  padding: 5px 0;
   cursor: pointer;
 `;
 

@@ -107,7 +107,8 @@ const Homepage = () => {
         <Experience>
           <SideText className="side-txt-second">
             <SideParagraph>
-              The warmth of Icelanders is disarming, as is their industriousn
+              The warmth of Icelanders is disarming, as is their
+              industriousness.
             </SideParagraph>
           </SideText>
           <Pagination text="2" style={{ padding: "10px 26px 0px 0px" }} />

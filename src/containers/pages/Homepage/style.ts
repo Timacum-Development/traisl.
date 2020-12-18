@@ -116,7 +116,8 @@ export const HeadingWrap = styled.div`
 
 export const Travel = styled.section`
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: flex-end;
   align-items: center;
   padding: 197px 0 199px 0;
   /* margin-bottom: 197px; */
@@ -125,7 +126,7 @@ export const Travel = styled.section`
 export const Experience = styled.div`
   display: flex;
   width: 60%;
-  padding: 0 98px 0 200px;
+  padding: 0 98px 0 129px;
   /* max-width: 781px;
   margin: 0 auto; */
 `;
