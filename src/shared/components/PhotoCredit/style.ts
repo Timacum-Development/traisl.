@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { color } from "../../styles";
 
 export const CreditWrap = styled.div`
+  height: 50%;
   padding: 0 45px;
   display: flex;
   justify-content: center;

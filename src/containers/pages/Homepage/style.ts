@@ -51,15 +51,6 @@ export const GeyserBg = styled.div`
 `;
 
 export const Buttons = styled.div`
-  /* position: absolute;
-  left: 53%;
-  top: 51%; */
-  /* width: 50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 25; */
   max-width: 650px;
   z-index: 25;
   position: relative;
@@ -118,19 +109,15 @@ export const HeadingWrap = styled.div`
 
 export const Travel = styled.section`
   display: flex;
-  /* justify-content: center; */
   justify-content: flex-end;
   align-items: center;
   padding: 197px 0 199px 0;
-  /* margin-bottom: 197px; */
 `;
 
 export const Experience = styled.div`
   display: flex;
   width: 60%;
   padding: 0 98px 0 129px;
-  /* max-width: 781px;
-  margin: 0 auto; */
 `;
 
 export const ExperienceText = styled.div`
@@ -260,8 +247,6 @@ export const ImageSecond = styled.div`
 
 export const FirstImageWrap = styled.div`
   width: 48%;
-  /* padding-bottom: 240px; */
-  padding-bottom: 110px;
   position: relative;
 
   &:after {

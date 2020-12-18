@@ -107,8 +107,7 @@ const Homepage = () => {
         <Experience>
           <SideText className="side-txt-second">
             <SideParagraph>
-              The warmth of Icelanders is disarming, as is their
-              industriousness.
+              The warmth of Icelanders is disarming, as is their industriousn
             </SideParagraph>
           </SideText>
           <Pagination text="2" style={{ padding: "10px 26px 0px 0px" }} />
@@ -157,7 +156,11 @@ const Homepage = () => {
         </YellowRectangle>
       </Promo>
       <ImageGallery className="container2">
-        <Credits photoby="Photo:" text="NicoleB." />
+        <Credits
+          photoby="Photo:"
+          text="Samantha G."
+          style={{ transform: "rotate(180deg)" }}
+        />
         <FirstImageWrap>
           <ImageFirst>
             <a>
@@ -184,7 +187,7 @@ const Homepage = () => {
               <Btn />
             </a>
           </ImageSecond>
-          <Credits photoby="Photo:" text="NicoleB." />
+          <Credits photoby="Photo:" text="Michael C." />
         </SecondImageWrap>
       </ImageGallery>
       <About className="container2">
