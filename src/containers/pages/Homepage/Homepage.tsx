@@ -189,9 +189,9 @@ const Homepage = () => {
                 <Btn />
               </a>
             </ImageSecond>
+            <Credits photoby="Photo:" text=" Michael C." />
           </SecondImageWrap>
         </GalleryWrap>
-        <Credits photoby="Photo:" text="Michael C." />
       </ImageGallery>
       <About className="container2">
         <Pagination text="4" style={{ padding: "10px 30px 0px 0px" }} />

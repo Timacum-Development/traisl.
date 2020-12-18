@@ -278,7 +278,7 @@ export const SecondImageWrap = styled.div`
     background-color: ${color.yellow};
     position: absolute;
     left: -16px;
-    bottom: 220px;
+    bottom: 236px;
     z-index: -1;
   }
 `;
