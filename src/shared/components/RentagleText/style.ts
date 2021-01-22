@@ -1,6 +1,5 @@
-import styled from "styled-components";
-import { color } from "../../styles";
+import styled from 'styled-components';
 
 export const HeadingTextWrap = styled.div`
-  padding-left: 30px;
+	padding-left: 30px;
 `;
